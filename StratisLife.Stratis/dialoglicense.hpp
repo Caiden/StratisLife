@@ -4,7 +4,7 @@ class CivLicenseMenu
 	movingEnable = true;
 	enableSimulation = true;
 	controlsBackground[] = {};
-	controls[] = {Title,InfoT,CostT,DriverLicense,Info1,Cost1,HuntingLicense,Info2,Cost2,AirLicense,Info3,Cost3,BoatLicense,Info4,Cost4,OilprocessLicense,Info5,Cost5,RifleLicense,Info6,Cost6,GunLicense,Info7,Cost7,Close};
+	controls[] = {Title,InfoT,CostT,DriverLicense,Info1,Cost1,HuntingLicense,Info2,Cost2,AirLicense,Info3,Cost3,BoatLicense,Info4,Cost4,OilprocessLicense,Info5,Cost5,RifleLicense,Info6,Cost6,PistolLicense,Info7,Cost7,Close};
 	objects[] = {};
 class Title : BaseRscSingleText
 	{
@@ -198,11 +198,11 @@ class Title : BaseRscSingleText
 		x = 1.15; y = 0.650;
 		w = 0.15;
 	};
-	class GunLicense : BaseRscButton
+	class PistolLicense : BaseRscButton
 	{
 		idc = -1;
-		text = "Buy Gun License";
-		action = "if((player getVariable 'gunlicense') >= 1) then{}else{if((player getVariable 'mymoney') >= 15000) then{player setVariable['mymoney',((player getVariable 'mymoney') - 15000)]; player setVariable['gunlicense',1];}};closeDialog 0; execVM 'menu\licensemenu.sqf';";
+		text = "Buy Pistol License";
+		action = "if((player getVariable 'pistollicense') >= 1) then{}else{if((player getVariable 'mymoney') >= 15000) then{player setVariable['mymoney',((player getVariable 'mymoney') - 15000)]; player setVariable['pistollicense',1];}};closeDialog 0; execVM 'menu\licensemenu.sqf';";
 		x = 0.65; y = 0.725;
 		w = 0.4;
 	};

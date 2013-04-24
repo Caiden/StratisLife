@@ -39,11 +39,11 @@ else {
 haveairinv = format [""];
 };
 
-if ((player getVariable "gunlicense") == 1) then {
-haveguninv = format ["<t color='#D0BAFF' size='1'>Gun license</t> <br/>"]; 
+if ((player getVariable "pistollicense") == 1) then {
+havepistolinv = format ["<t color='#D0BAFF' size='1'>Pistol license</t> <br/>"]; 
 }
 else {
-haveguninv = format [""];
+havepistolinv = format [""];
 };
 
 if ((player getVariable "mymoney") == 0) then {
@@ -109,7 +109,7 @@ bankcolorinv, //3
 havedriverinv, //5
 haveboatinv, //6
 haveairinv, //7
-haveguninv, //8
+havepistolinv, //8
 havepatrolinv //9
 ];
 hint _str;

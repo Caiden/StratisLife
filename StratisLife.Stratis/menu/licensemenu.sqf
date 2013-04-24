@@ -35,10 +35,10 @@ hasriflelicense = "Yes";
 hasriflelicense = "No";
 };
 
-if ((player getVariable "gunlicense") >= 1) then {
-hasgunlicense = "Yes";
+if ((player getVariable "pistollicense") >= 1) then {
+haspistollicense = "Yes";
 } else {
-hasgunlicense = "No";
+haspistollicense = "No";
 };
 
 ctrlSetText[11157,format["%1",hasdriverlicense]];
@@ -47,4 +47,4 @@ ctrlSetText[11159,format["%1",hasairlicense]];
 ctrlSetText[11160,format["%1",hasboatlicense]];
 ctrlSetText[11162,format["%1",hasoilprocesslicense]];
 ctrlSetText[11163,format["%1",hasriflelicense]];
-ctrlSetText[11164,format["%1",hasgunlicense]];
+ctrlSetText[11164,format["%1",haspistollicense]];

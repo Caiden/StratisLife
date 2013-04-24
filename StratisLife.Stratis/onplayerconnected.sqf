@@ -132,15 +132,15 @@ itemfish = 0;
 itemunpoil = 0;
 itemprooil = 0;
 driverlicense = 0;
-gunlicense = 0;
+pistollicense = 0;
 airlicense = 0;
 boatlicense = 0;
-terrorlicense = 0;
+riflelicense = 0;
 oilprocesslicense = 0;
 
 //INITIALIZING COPS
 if (side player == west) then {
-gunlicense = 1;
+pistollicense = 1;
 driverlicense = 1;
 CopAirlicense = 0;
 totalstunammo = 24;

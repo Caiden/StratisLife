@@ -20,10 +20,9 @@ if (_state == 1) then
     player setVariable["mypaycheck", 2500];
 
     player setVariable["driverlicense",0];
-    player setVariable["gunlicense",0];
+    player setVariable["pistollicense",0];
     player setVariable["airlicense",0];
     player setVariable["boatlicense",0];
-    player setVariable["terrorlicense",0];
     player setVariable["oilprocesslicense",0];
     player setVariable["heroinprocesslicense",0];
     player setVariable["huntinglicense",0];

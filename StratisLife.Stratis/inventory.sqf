@@ -125,18 +125,18 @@ else {
 haveairinv = format [""];
 };
 
-if ((player getVariable "gunlicense") == 1) then {
-haveguninv = format ["<t color='#D0BAFF' size='1'>Pistol license</t> <br/>"]; 
+if ((player getVariable "pistollicense") == 1) then {
+havepistolinv = format ["<t color='#D0BAFF' size='1'>Pistol license</t> <br/>"]; 
 }
 else {
-haveguninv = format [""];
+havepistolinv = format [""];
 };
 
-if ((player getVariable "terrorlicense") == 1) then {
-haveterrorinv = format ["<t color='#D0BAFF' size='1'>Terror license</t> <br/>"]; 
+if ((player getVariable "riflelicense") == 1) then {
+haverifleinv = format ["<t color='#D0BAFF' size='1'>Rifle license</t> <br/>"]; 
 }
 else {
-haveterrorinv = format [""];
+haverifleinv = format [""];
 };
 
 if ((player getVariable "oilprocesslicense") == 1) then {
@@ -303,8 +303,8 @@ gotnolicenseinv, //13
 havedriverinv, //14
 haveboatinv, //15
 haveairinv, //16
-haveguninv, //17
-haveterrorinv, //18
+havepistolinv, //17
+haverifleinv, //18
 haveoilinv, //19
 havedmission1inv, //20
 wantedcolorinv, //21

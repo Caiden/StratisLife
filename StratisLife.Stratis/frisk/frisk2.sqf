@@ -67,11 +67,11 @@ publicVariable "boatlicensevictim";
 airlicensevictim = (player getVariable "airlicense");
 publicVariable "airlicensevictim"; 
 
-gunlicensevictim = (player getVariable "gunlicense");
-publicVariable "gunlicensevictim"; 
+pistollicensevictim = (player getVariable "pistollicense");
+publicVariable "pistollicense"; 
 
-terrorlicensevictim = (player getVariable "terrorlicense");
-publicVariable "terrorlicensevictim"; 
+riflelicensevictim = (player getVariable "riflelicense");
+publicVariable "riflelicensevictim"; 
 
 oilprocesslicensevictim = (player getVariable "oilprocesslicense");
 publicVariable "oilprocesslicensevictim"; 
@@ -183,17 +183,17 @@ haveairinvvictim = format [""];
 };
 
 if (gunlicensevictim == 1) then {
-haveguninvvictim = format ["<t color='#D0BAFF' size='1'>Gun license</t> <br/>"]; 
+havepistolinvvictim = format ["<t color='#D0BAFF' size='1'>Gun license</t> <br/>"]; 
 }
 else {
-haveguninvvictim = format [""];
+havepistolinvvictim = format [""];
 };
 
-if (terrorlicensevictim == 1) then {
-haveterrorinvvictim = format ["<t color='#D0BAFF' size='1'>Terror license</t> <br/>"]; 
+if (riflelicensevictim == 1) then {
+haverifleinvvictim = format ["<t color='#D0BAFF' size='1'>Rifle license</t> <br/>"]; 
 }
 else {
-haveterrorinvvictim = format [""];
+haverifleinvvictim = format [""];
 };
 
 if (oilprocesslicensevictim == 1) then {
@@ -342,8 +342,8 @@ gotnolicenseinvvictim, //13
 havedriverinvvictim, //14
 haveboatinvvictim, //15
 haveairinvvictim, //16
-haveguninvvictim, //17
-haveterrorinvvictim, //18
+havepistolinvvictim, //17
+haverifleinvvictim, //18
 haveoilinvvictim, //19
 havedmission1invvictim, //20
 wantedcolorinvvictim, //21
@@ -391,8 +391,8 @@ publicVariable "airlicensevictim";
 gunlicensevictim = 0;
 publicVariable "gunlicensevictim"; 
 
-terrorlicensevictim = 0;
-publicVariable "terrorlicensevictim"; 
+riflelicensevictim = 0;
+publicVariable "riflelicensevictim"; 
 
 boatlicensevictim = 0;
 publicVariable "boatlicensevictim"; 

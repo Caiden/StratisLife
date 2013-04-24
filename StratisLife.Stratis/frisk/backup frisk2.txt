@@ -63,11 +63,11 @@ publicVariable "boatlicensevictim";
 airlicensevictim = airlicense;
 publicVariable "airlicensevictim"; 
 
-gunlicensevictim = gunlicense;
-publicVariable "gunlicensevictim"; 
+pistollicensevictim = gunlicense;
+publicVariable "pistollicensevictim"; 
 
-terrorlicensevictim = terrorlicense;
-publicVariable "terrorlicensevictim"; 
+riflelicensevictim = riflelicense;
+publicVariable "riflelicensevictim"; 
 
 boatlicensevictim = boatlicense;
 publicVariable "boatlicensevictim"; 
@@ -186,18 +186,18 @@ else {
 haveairinvvictim = format [""];
 };
 
-if (gunlicensevictim == 1) then {
-haveguninvvictim = format ["<t color='#D0BAFF' size='1'>Gun license</t> <br/>"]; 
+if (pistollicensevictim == 1) then {
+havepistolinvvictim = format ["<t color='#D0BAFF' size='1'>Pistol license</t> <br/>"]; 
 }
 else {
-haveguninvvictim = format [""];
+havepistolinvvictim = format [""];
 };
 
-if (terrorlicensevictim == 1) then {
-haveterrorinvvictim = format ["<t color='#D0BAFF' size='1'>Terror license</t> <br/>"]; 
+if (riflelicensevictim == 1) then {
+haverifleinvvictim = format ["<t color='#D0BAFF' size='1'>Rifle license</t> <br/>"]; 
 }
 else {
-haveterrorinvvictim = format [""];
+haverifleinvvictim = format [""];
 };
 
 if (oilprocesslicensevictim == 1) then {
@@ -347,8 +347,8 @@ gotnolicenseinvvictim, //13
 havedriverinvvictim, //14
 haveboatinvvictim, //15
 haveairinvvictim, //16
-haveguninvvictim, //17
-haveterrorinvvictim, //18
+havepistolinvvictim, //17
+haverifleinvvictim, //18
 haveoilinvvictim, //19
 havedmission1invvictim, //20
 wantedcolorinvvictim, //21
@@ -394,11 +394,11 @@ publicVariable "boatlicensevictim";
 airlicensevictim = 0;
 publicVariable "airlicensevictim"; 
 
-gunlicensevictim = 0;
-publicVariable "gunlicensevictim"; 
+pistollicensevictim = 0;
+publicVariable "pistollicensevictim"; 
 
-terrorlicensevictim = 0;
-publicVariable "terrorlicensevictim"; 
+riflelicensevictim = 0;
+publicVariable "riflelicensevictim"; 
 
 boatlicensevictim = 0;
 publicVariable "boatlicensevictim"; 
