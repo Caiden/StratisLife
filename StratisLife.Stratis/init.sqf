@@ -127,7 +127,6 @@ allServicingActions =   [   [], // car service
 
 1 execVM "setupPlayer.sqf";
 execVM "banking\paycheck.sqf";
-execVM "safezonecopbase.sqf"
 execVM "siren.sqf";
 execVM "siren2.sqf";
 execVM "safezonecopbase.sqf";
