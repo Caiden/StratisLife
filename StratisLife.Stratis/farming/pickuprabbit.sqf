@@ -42,17 +42,16 @@ if (side player == civilian) then
                     player removeAction rabbits;
                     hint format["Picking up rabbit..."];
                     player setVariable["usedspace",(player getVariable "usedspace") + rabbitrate];
-                    //BUG: If two players pick up the same rabbit, they both get meat.
                     
                     //TODO: Add a pickup animation of some sort here.
-                    //pickup delay of 2 seconds
-                    sleep 2;
                     //remove the model
                     //hint format["%1", typename _rabbit];
                     deleteVehicle _rabbit;
                     
                     //update the players inventory
-                    player setVariable["itemrabbitmeat",(player getVariable "itemrabbitmeat") + rabbitrate];
+                    player setVariable["itemrabbitmeat",(player getVariable "itemrabbitmeat") + (5 * rabbitrate)];
+					//pickup delay of 2 seconds
+                    sleep 2;
                     hint format["You got %1 rabbit meat",rabbitrate];
                     //add the action to pickup back on.
                     waituntil {!isnull player};
