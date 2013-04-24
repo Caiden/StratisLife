@@ -32,6 +32,7 @@ if (_state == 1) then
     if(side player == west) then
     {
         player setVariable["driverlicense", 1];
+		player setVariable["pistollicense",1];
         player setVariable["mypaycheck", 5000];
         Player addEventHandler ["Fired","shooter = (_this select 0); weapon = (_this select 1); execVM 'firedEH.sqf'"];
         //personalinv = player addaction ["Personal Inventory", "copinventory.sqf", [], 1, false, false, "", ""];
