@@ -14,7 +14,7 @@ if (_state == 1) then
     
     player setVariable["isrestrained",0];
     
-    player setVariable["bankmoney", 1500000];
+    player setVariable["bankmoney",0];
     player setVariable["iswanted",0];
     player setVariable["isrestrained",0];
     player setVariable["mypaycheck", 2500];
@@ -60,7 +60,7 @@ if (_state == 2) then
 	victim2 = 0; // is this even used?
 	thirstLevel = 100; // is this even used?
     
-    player setVariable["mymoney",1500000];
+    player setVariable["mymoney",0];
     player setVariable["usedspace",0];
     player setVariable["totalspace",playerTotalSpace];
     
