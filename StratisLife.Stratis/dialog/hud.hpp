@@ -1,4 +1,4 @@
-﻿/*
+/*
 	@file Version: 1.0
 	@file Name: hud.hpp
 	@file Author: [404] Deadbeat
@@ -42,11 +42,11 @@ class WastelandHud {
 			size = 0.040;
 			x = safeZoneX + (safeZoneW * (1 - (0.16 / SafeZoneW)));
                         y = safeZoneY + (safeZoneH * (1 - (0.20 / SafeZoneH)));
-			w = 0.14; h = 0.20;
+			w = 0.15; h = 0.50;
 			colorText[] = {1,1,1,1};
 			lineSpacing = 3;
 			colorBackground[] = {0,0,0,0};
-			text = "100 <img size='0.8' image='icons\food.paa'/><br/>100 <img size='0.8' image='icons\water.paa'/><br/>200 <img size='0.8' image='icons\money.paa'/>";
+			text = "100 <img size='0.8' image='icons\food.paa'/><br/>100 <img size='0.8' image='icons\water.paa'/><br/>200 <img size='0.8' image='icons\money.paa'/>100 <img size='0.8' image='icons\wanted.paa'/>";
 			shadow = 3;
 			class Attributes {
 				align = "right";
