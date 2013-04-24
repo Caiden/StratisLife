@@ -37,7 +37,7 @@ class RabbitSellMenu
 	{
 		idc = 11181;
 		text = "Sell Rabbit";
-		action = "execVM 'rabbitsell.sqf',";
+		action = "execVM 'sell\rabbitsell.sqf',";
 		x = 0.65; y = 0.350;
 		w = 0.5;
 	};
@@ -90,7 +90,7 @@ class WoodSellMenu
 	{
 		idc = 11186;
 		text = "Sell Wood";
-		action = "execVM 'woodsell.sqf',";
+		action = "execVM 'sell\woodsell.sqf',";
 		x = 0.65; y = 0.350;
 		w = 0.5;
 	};
