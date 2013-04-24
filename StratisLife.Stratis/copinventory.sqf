@@ -32,7 +32,7 @@ else {
 haveboatinv = format [""];
 };
 
-if ((player getVariable "copairlicense") == 1) then {
+if ((player getVariable "airlicense") == 1) then {
 haveairinv = format ["<t color='#D0BAFF' size='1'>Air license</t> <br/>"];
 }
 else {
@@ -44,6 +44,13 @@ havepistolinv = format ["<t color='#D0BAFF' size='1'>Pistol license</t> <br/>"];
 }
 else {
 havepistolinv = format [""];
+};
+
+if ((player getVariable "riflelicense") == 1) then {
+haverifleinv = format ["<t color='#D0BAFF' size='1'>Rifle license</t> <br/>"]; 
+}
+else {
+haverifleinv = format [""];
 };
 
 if ((player getVariable "mymoney") == 0) then {
@@ -91,8 +98,9 @@ _str = parseText format ["
 <br/>
 %5
 %6
-%7
 %8
+%9
+%7
 <br/>
 <t color='#D9B398' size='1.5'>Wanted list</t>
 <br/>
@@ -110,6 +118,7 @@ havedriverinv, //5
 haveboatinv, //6
 haveairinv, //7
 havepistolinv, //8
-havepatrolinv //9
+haverifleinv, //9
+havepatrolinv //10
 ];
 hint _str;

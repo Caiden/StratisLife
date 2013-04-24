@@ -853,7 +853,7 @@ class Mission
 					fuel=0;
 					ammo=0;
 					text="copitem";
-					init="this allowDamage false;  removeAllWeapons CopItem; removeHeadgear CopItem; this stop true; this enableSimulation false;this addAction [""Item Menu"", ""items\shop1menu.sqf""];";
+					init="this allowDamage false;  removeAllWeapons CopItem; removeHeadgear CopItem; this stop true; this enableSimulation false; this addAction [""Licenses"",""menu\licensemenu.sqf""]; this addAction [""Item Menu"", ""items\shop1menu.sqf""];this addAction [""Pistol Menu"", ""weapons\pistolmenu.sqf""];this addAction [""Rifle Menu"", ""weapons\riflemenu.sqf""];";
 				};
 			};
 		};
