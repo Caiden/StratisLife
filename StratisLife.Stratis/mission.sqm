@@ -6076,9 +6076,9 @@ class Mission
 		};
 		class Item6
 		{
-			position[]={3247.6243,5.4307842,5783.3105};
+			position[]={3260.4482,5.3288651,5794.6128};
 			a=45;
-			b=20;
+			b=40;
 			angle=36;
 			rectangular=1;
 			activationBy="ANY";

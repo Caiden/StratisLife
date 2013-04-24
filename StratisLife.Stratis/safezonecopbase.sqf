@@ -7,7 +7,7 @@ player execVM "safezonecopbase.sqf";
 }
 else {
 hint "You have been teleported out of the cop base";
-player setPos [3254.87,5816.15,1.0];
+player setPos [3229.87,5835.27,4.672656];
 player execVM "safezonecopbase.sqf";
 };
 
