@@ -15,7 +15,6 @@ if (_state == 1) then
     player setVariable["isrestrained",0];
     
     player setVariable["bankmoney", 15000];
-    player setVariable["bankmoney", 15000000];
     player setVariable["iswanted",0];
     player setVariable["isrestrained",0];
     player setVariable["mypaycheck", 2500];
