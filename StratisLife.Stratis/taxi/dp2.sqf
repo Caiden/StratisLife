@@ -1,5 +1,5 @@
 hint format["You finished the Delivery Mission and earned %1 $",dp2reward];
-player setVariable['mymoney',(player getVariable 'mymoney') + dp2reward;
+player setVariable['mymoney',(player getVariable 'mymoney') + dp2reward];
 dp2civ removeAction 0;
 dp2civ removeAction 1;
 dp2civ removeAction 2;
