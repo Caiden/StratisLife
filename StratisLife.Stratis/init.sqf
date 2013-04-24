@@ -130,6 +130,7 @@ execVM "banking\paycheck.sqf";
 execVM "safezone.sqf"
 execVM "siren.sqf";
 execVM "siren2.sqf";
+execVM "safezonecopbase.sqf";
 execVM "buildingprot.sqf";
 execVM "usedspace.sqf";
 execVM "speedzone.sqf";
