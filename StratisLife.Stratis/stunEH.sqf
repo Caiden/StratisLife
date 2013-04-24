@@ -2,8 +2,8 @@ if(isServer)then
 {
 	if(shooter == shotby)then
 	{
-		stunned = victim;
-		stunshooter = shooter;
+		stunned = name victim;
+		stunshooter = name shooter;
 		stundistance = victim distance shooter;
 		
 		if (weapon == "hgun_P07_F")then
