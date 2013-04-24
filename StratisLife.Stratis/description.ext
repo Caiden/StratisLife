@@ -11,7 +11,7 @@ disabledAI = true;
 #include "dialogmenus2.hpp"
 #include "dialogitems.hpp"
 author="Caiden, Zannaza and Ylguf";
-OnLoadName = "Stratis Life 0.3.4";
+OnLoadName = "Stratis Life 0.3.5";
 OnLoadMission = "This is a Roleplaying mission. Play by the rules and have fun!";
 loadScreen = "stratis life logo.paa";
 
