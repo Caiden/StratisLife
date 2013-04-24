@@ -8,7 +8,7 @@ Inspired by Arma/Arma2 Life missions
 
 ### Life mod: ###
 
-The "life mod" has been here since ArmA I, the basic principles are that there are two sides, Blufor a.k.a Cops, and the civilians. Civilians earn money by doing jobs, either legal or illegal. It's up to the civ to become who he wants, a law abiding civvie, a robber, a drugsmuggler and so forth. We plan on hosting two different missions: One without mods, and one with. We'll have a public test next weekend. On our server, we will require players to have a mic and the blufor-side will be trained only to make sure the cop team is proffesional.
+The "life mod" has been here since ArmA I, the basic principles are that there are two sides, Blufor a.k.a Cops, and the civilians. Civilians earn money by doing jobs, either legal or illegal. It's up to the civ to become who he wants, a law abiding civvie, a robber, a drugsmuggler and so forth. We plan on hosting two different missions: One without mods, and one with. We'll have a public test next weekend. On our server, we will require players to have a mic and the blufor-side will be trained only to make sure the cop team is professional.
 
 ### CIV's ###
 
