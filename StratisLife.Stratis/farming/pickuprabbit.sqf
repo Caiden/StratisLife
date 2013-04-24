@@ -49,7 +49,7 @@ if (side player == civilian) then
                     deleteVehicle _rabbit;
                     
                     //update the players inventory
-                    player setVariable["itemrabbitmeat",(player getVariable "itemrabbitmeat") + (5 * rabbitrate)];
+                    player setVariable["itemrabbitmeat",(player getVariable "itemrabbitmeat") + (rabbitrate)];
 					//pickup delay of 2 seconds
                     sleep 2;
                     hint format["You got %1 rabbit meat",rabbitrate];
