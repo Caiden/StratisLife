@@ -1,0 +1,44 @@
+respawn = "BASE";
+respawnDelay = 10;
+respawnDialog = true;
+disabledAI = true;
+
+#include "dialog\common.hpp"
+#include "dialogbase.hpp"
+#include "dialogmenus.hpp"
+#include "dialoglicense.hpp"
+#include "dialogweapon.hpp"
+#include "dialogmenus2.hpp"
+#include "dialogitems.hpp"
+author="Caiden, Zannaza and Ylguf";
+OnLoadName = "Stratis Life 0.3.4";
+OnLoadMission = "This is a Roleplaying mission. Play by the rules and have fun!";
+loadScreen = "stratis life logo.paa";
+
+class RscTitles {
+    #include "dialog\hud.hpp"
+};
+
+class CfgSounds
+{
+  sounds[] = {};
+  class Sirenlong
+  {
+    name = "Sirenlong";
+    sound[] = {"\sounds\Siren_remade.ogg", 0.25, 1};
+    titles[] = {};
+  };
+        class bankalarm
+  {
+    name = "bankalarm";
+    sound[] = {"\sounds\bankalarm.ogg", 0.95, 1};
+    titles[] = {};
+  };
+  
+  class TazerSound
+	{
+		name = "TazerSound";
+		sound[] = {"\sounds\tazer.ogg", 0.25, 1};
+		titles[] = {};
+	};
+};

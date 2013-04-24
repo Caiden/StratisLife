@@ -1,0 +1,10 @@
+ambush = true;
+attack = true;
+rescue = true;
+defend = true;
+patrol = true;
+escort = true;
+destroy = true;
+search = true;
+trap = true;
+reinforce = true;
